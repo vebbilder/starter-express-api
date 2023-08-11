@@ -1,22 +1,17 @@
 {
-  "name": "starter-express-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
-  "dependencies": {
+    "name": "clear",
+    "version": "1.0.0",
+    "main": "index.js",
+    "engines": {
+        "node": "^16.6.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
         "cherio": "^1.0.0-rc.2",
         "deep-equal": "^2.2.1",
         "discord.js": "^13.8.0",
@@ -27,5 +22,6 @@
         "puppeteer-extra": "^3.3.4",
         "qs": "^6.10.5",
         "queue": "^6.0.2"
-    }
+    },
+    "description": ""
 }
